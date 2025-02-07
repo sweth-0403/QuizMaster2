@@ -1,0 +1,99 @@
+/* ProfilePage.css */
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 30px;
+}
+
+.profile-pic-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+  cursor: pointer;
+}
+
+.profile-pic-container label {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.score-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.score-list li {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.no-scores {
+  color: #999;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 20px;
+  }
+
+  .profile-pic-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

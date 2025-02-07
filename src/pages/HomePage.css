@@ -1,0 +1,36 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(245, 232, 228);
+  border-radius: 10px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.dashboard-box {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dashboard-box:hover {
+  background-color: #2980b9;
+}

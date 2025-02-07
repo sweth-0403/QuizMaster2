@@ -1,0 +1,32 @@
+.topics-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.topics-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.topic-card {
+  background-color: #3498db;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.topic-card:hover {
+  background-color: #2980b9;
+}
